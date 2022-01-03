@@ -14,6 +14,9 @@ Need to install from command line
 * npm install inquirer
 * node index.js to run app
 
+## Visual
+https://watch.screencastify.com/v/fSjQFjvBIZdlBciwsUAZ
+
 ## Contribution
 Steven Cruz
 
