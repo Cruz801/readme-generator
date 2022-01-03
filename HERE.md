@@ -1,17 +1,17 @@
-# yes 
+# README generator 
   ## Description
 
 
-  Motivation for project:yes
+  Motivation for project:To create a readme for my repository
 
-  Technology used: 
+  Technology used: JavaScript,Node,ES6
 
 
   ## Installation
 
 
   ```bash 
-  yes
+  npm init, npm install inquirer
   ```
 
 
@@ -19,9 +19,9 @@
 
 
   ```bash
-  yes
+  node index.js
   ```
 
 
    ## LICENSE 
-  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)

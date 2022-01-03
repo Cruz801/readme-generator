@@ -23,7 +23,7 @@ const promptUser = () => {
         {
             type: 'input',
             name: 'what',
-            message: 'What was your motivation for this project?(Required)',
+            message: 'Brief description of this project?(Required)',
             validate: titleInput => {
                 if(titleInput){
                     return true
