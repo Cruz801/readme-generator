@@ -16,3 +16,8 @@ Need to install from command line
 
 ## Contribution
 Steven Cruz
+
+## Licenses
+*MIT
+*APACHE-2.0
+*GPL-3.0
