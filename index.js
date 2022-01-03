@@ -23,10 +23,18 @@ const promptUser = () => {
         {
             type: 'input',
             name: 'what',
-            message: 'What was your motivation for this project?'
+            message: 'What was your motivation for this project?(Required)',
+            validate: titleInput => {
+                if(titleInput){
+                    return true
+                } else {
+                    console.log('Please enter valid input')
+                    return false
+                }
+            }
         },
         {
-            type: 'list',
+            type: 'checkbox',
             name: 'how',
             message: 'How was this project made?',
             choices: ['JavaScript', 'HTML', 'CSS', 'Node', 'ES6']
@@ -40,12 +48,31 @@ const promptUser = () => {
             type: 'input',
             name: 'usage',
             message: 'What command starts app?',
+        },
+        {
+            type: 'input',
+            name: 'git',
+            message: 'what is your Github username?',
+            validate: titleInput => {
+                if(titleInput){
+                    return true
+                } else {
+                    console.log('Please enter username')
+                    return false
+                }
+            }
+        },
+        {
+        type: 'list',
+            name: 'license',
+            message: 'What license',
+            choices: ['MIT', 'APACHE-2.0', 'GPL-3.0']
         }
     ])
     .then((answers) => {
         const markDownString = generateMarkdown(answers); // getting users input
         
-        writeToFile('test.md', markDownString)
+        writeToFile('HERE.md', markDownString)
     })
 }
 // TODO: Create a function to write README file
@@ -53,7 +80,7 @@ function writeToFile(fileName, data) {
     console.log('writeToFile',fileName)
 fs.writeFile(fileName, data, (err) => {
     if (err) throw err
-    console.log('file created!');
+    console.log('file created!', writeToFile, data);
 })
 }
 
