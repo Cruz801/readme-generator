@@ -18,6 +18,6 @@ Need to install from command line
 Steven Cruz
 
 ## Licenses
-*MIT
-*APACHE-2.0
-*GPL-3.0
+* MIT
+* APACHE-2.0
+* GPL-3.0
