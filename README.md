@@ -16,7 +16,8 @@ Need to install from command line
 
 ## Visual
 https://watch.screencastify.com/v/fSjQFjvBIZdlBciwsUAZ
-![Screenshot (53)](https://user-images.githubusercontent.com/92316250/147898266-97a74701-1c10-45f6-9abf-9e1e9b911800.png)
+![Screenshot (54)](https://user-images.githubusercontent.com/92316250/147898303-fe60f9ac-8f2f-4800-86cc-d24ada7ae02f.png)
+
 
 ## Contribution
 Steven Cruz
