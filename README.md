@@ -11,6 +11,7 @@ An application using node.js that takes user input and makes a README.md file fo
 Need to install from command line
 * npm init
 * npm install inquirer
+* node index.js to run
 
 ## Contribution
 Steven Cruz
