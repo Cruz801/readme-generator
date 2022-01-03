@@ -43,27 +43,23 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `# ${data.title} 
   ## Description
+  ${data.what}
+  
 
 
-  Motivation for project:${data.what}
-
-  Technology used: ${data.how}
-
+ ## Technology 
+ ${data.how}
 
   ## Installation
-
-
-  \`\`\`bash 
+  
   ${data.installation}
-  \`\`\`
+  
 
 
   ## Usage
-
-
-  \`\`\`bash
+  
   ${data.usage}
-  \`\`\`
+  
 
 
   ${renderLicenseSection(data.license)}`;
